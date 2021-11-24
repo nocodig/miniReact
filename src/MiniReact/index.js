@@ -1,13 +1,15 @@
 /*
  * @Author: lifang
  * @Date: 2020-10-07 12:19:14
- * @LastEditTime: 2021-11-23 21:19:56
+ * @LastEditTime: 2021-11-24 21:55:24
  * @LastEditors: lifang
- * @Description: 
- * @FilePath: /tiny-react/src/TinyReact/index.js
+ * @Description:
+ * @FilePath: /miniReact/src/MiniReact/index.js
  */
-import createElement from "./createElement"
+import createElement from "./createElement";
+import render from "./render";
 
 export default {
   createElement,
-}
+  render,
+};
