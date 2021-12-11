@@ -1,4 +1,4 @@
-# 跟着适配学习简易React
+# 跟着视频学习简易React
 
 ## 一、createElement
 
