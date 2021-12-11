@@ -20,6 +20,11 @@ const virtualDOM = (
   </div>
 )
 
-console.log(virtualDOM)
-MiniReact.render(virtualDOM, document.getElementById('root'))
+function Heart() {
+  return (
+    <div>&heart;</div>
+  )
+}
+
+MiniReact.render(<Heart />, document.getElementById('root'))
 
