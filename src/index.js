@@ -20,11 +20,26 @@ const virtualDOM = (
   </div>
 )
 
-function Heart() {
-  return (
-    <div>&heart;</div>
-  )
+// function Header() {
+//   return (<div>
+//     Header
+//   </div>)
+// }
+
+// function Heart() {
+//   return (
+//     <div>
+//       &hearts;
+//       <Header />
+//     </div>
+//   )
+// }
+
+class Title extends MiniReact.Component {
+  render() {
+    return <div>Hello Class</div>
+  }
 }
 
-MiniReact.render(<Heart />, document.getElementById('root'))
+MiniReact.render(<Title />, document.getElementById('root'))
 
